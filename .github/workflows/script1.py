@@ -1,3 +1,5 @@
+import os
+
 def main():
     print('Hello from the python file - script1.py')
     # receive .env variables from ./script1.yml
