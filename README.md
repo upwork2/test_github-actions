@@ -1,0 +1,7 @@
+- action is defined in `.github/workflows/script1.yml`, task of which is to execute `script1.py` file in the same directory
+- user can manually execute action through following process
+  - open this repository on github
+  - set .env variable `API_TOKEN_1` at `settings -> security -> secrets and variables -> actions`
+  - click on 'Actions' tab, click on 'select workflow'
+  - select 'Execute Script#1' which is the name of workflow define under `name` variable in `script1.yml` file
+  - click 'Run Workflow', in few seconds you will script execution details 
